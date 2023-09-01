@@ -1,0 +1,27 @@
+/*CSS Reset Rule*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#landing {
+	background-color: #0D334B;
+}	
+
+#navbar {
+	background-image: url('./images/building.png');
+}
+
+#projects .card {
+	width: 18rem;
+}
+
+#profile-pic {
+	max-width: 330px;
+	box-shadow: 10px 10px 50px #ccc;
+}
+
+#about {
+	margin-top: 60px;
+}
