@@ -103,6 +103,12 @@ body {
 	background-color: #510400;
 }
 
+.modal-header {
+	background-color: #008080;
+	color: white;
+}
+
 #projects, #tools, #contact {
 	box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
+
