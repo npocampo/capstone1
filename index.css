@@ -1,16 +1,26 @@
 /*CSS Reset Rule*/
 * {
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding: 0px;
 	box-sizing: border-box;
+	font-family: 'Raleway', sans-serif;
+}
+
+body {
+	background-image: url(./images/building.png);
+}
+
+#navbar {
+	text-decoration: none;
 }
 
 #landing {
-	background-color: #0D334B;
+	background-color: #008080;
 }	
 
-#navbar {
-	background-image: url('./images/building.png');
+#projects {
+	border-radius: 50px 50px 0px 0px;
+	background-color: #008080;
 }
 
 #projects .card {
@@ -18,10 +28,34 @@
 }
 
 #profile-pic {
-	max-width: 330px;
+	max-width: 450px;
 	box-shadow: 10px 10px 50px #ccc;
 }
 
+
 #about {
-	margin-top: 60px;
+	margin-top: 100px;
 }
+
+#about p {
+	padding-left: 150px;
+}
+
+
+#tools {
+	background-color: #008080;
+}
+
+#contact {
+	background-color: #008080;
+	border-radius: 0px 0px 50px 50px;
+}
+
+#contact a {
+  text-decoration: none;
+  font-size: 50px;
+  color: white;
+  border-radius: 25%;
+  margin-right: 30px;
+}
+
