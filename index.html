@@ -15,25 +15,37 @@
 
 </head>
 <body>
-	<nav class="navbar navbar-expand-lg text-white" id="navbar">
-	  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-	    <div class="navbar-nav mx-auto">
-	      <a class="nav-link active" href="#landing">Home <span class="sr-only">(current)</span></a>
-	      <a class="nav-link" href="#projects">Projects</a>
-	      <a class="nav-link" href="#tools">Tools</a>
-	      <a class="nav-link" href="#contact">Contact</a>
-	    </div>
-	  </div>
-	</nav>
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+		  <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    <ul class="navbar-nav mx-auto">
+		      <li class="nav-item">
+		        <a class="nav-link mx-3" href="#landing">Home <span class="sr-only">(current)</span></a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mx-3" href="#projects">Projects</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mx-3" href="#tools">Tools</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link mx-3" href="#contact">Contact</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
 
 		<section id="landing" class="container-fluid text-white">
 			<div class="row py-5" id="row-landing">
-				<div class="col-6 p-4 text-right" id="about">
+				<div class="col-12 order-last order-lg-first col-lg-6 p-4 text-center text-lg-right" id="about">
 					    <h1>NIKKO OCAMPO</h1>
 					    <h3>Full Stack Web Developer</h3>
-					    <p class="mt-5">Focused and adept Test Analyst with 7 years of experience in Test Planning, Analysis and Design, Testing and Defect Management</p>
+					    <p class="mt-5">Aspiring young developer who has 7 years IT experience and who constantly evolves to implement latest technology and process in the industry</p>
 				</div>
-				<div class="col-6">
+				<div class="col-12 col-lg-6 text-center text-lg-left">
 					<img src="./images/profile2.png" class="img-fluid rounded-circle" id="profile-pic">
 				</div>
 			</div>
@@ -42,29 +54,29 @@
 			<h2 class="text-center text-white">PROJECTS</h2>
 			<div class="m-5">
 				<div class="bg-white p-2 m-5">
-					<div class="media">
-					  <img src="https://place-puppy.com/300x300" class="mr-3" alt="...">
+					<div class="media d-flex flex-lg-row flex-column">
+					  <img src="https://miro.medium.com/v2/resize:fit:1400/1*DC_lhxd9jWjCMImR1EiRFg.jpeg" class="mr-3 img-fluid" alt="...">
 					  <div class="media-body">
-					    <h5 class="mt-1">Media heading</h5>
-					    <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+					    <h5 class="mt-1"><strong>Test Automation</strong></h5>
+					    <p>Test automation is the process of using automation tools to maintain test data, execute tests, and analyze test results to improve software quality. Using Selenium WebDriver and Cucumber JS, I was able to setup and implement automation process within our QA team so we can execute test scripts in order to remove repetitive tasks and perform continuous testing. This saves a lot of time and effort within the team..</p>
 					  </div>
 					</div>				
 				</div>
 				<div class="bg-white p-2 m-5">
-					<div class="media">
-					  <img src="https://place-puppy.com/300x300" class="mr-3" alt="...">
+					<div class="media d-flex flex-lg-row flex-column">
+					  <img src="https://spottedphilippines.com/wp-content/uploads/2019/06/ShopSM-PR-Image-1.jpg" class="mr-3 img-fluid" alt="...">
 					  <div class="media-body">
-					    <h5 class="mt-1">Media heading</h5>
-					    <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+					    <h5 class="mt-1"><strong>E-commerce QA Testing</strong></h5>
+					    <p>ShopSM is an e-commerce platform that carries your favorite items from every department. In order to test the platform, our work requires in depth knowledge of how e-commerce works - from consumer adding items to cart, until a courier delivers it to their doorstop. Different applications are involved such as Shopify, Fluent, Anchanto, etc. and we are able to validate the data from point to point.</p>
 					  </div>
 					</div>				
 				</div>
 				<div class="bg-white p-2 m-5">
-					<div class="media">
-					  <img src="https://place-puppy.com/300x300" class="mr-3" alt="...">
+					<div class="media d-flex flex-lg-row flex-column">
+					  <img src="https://promotexter.com/wp-content/uploads/2022/02/Security-300x174.png" class="mr-3 img-fluid" alt="...">
 					  <div class="media-body">
-					    <h5 class="mt-1">Media heading</h5>
-					    <p>Will you do the same for me? It's time to face the music I'm no longer your muse. Heard it's beautiful, be the judge and my girls gonna take a vote. I can feel a phoenix inside of me. Heaven is jealous of our love, angels are crying from up above. Yeah, you take me to utopia.</p>
+					    <h5 class="mt-1"><strong>Promotexter QA Testing</strong></h5>
+					    <p>Promotexter is a mobile customer engagement platform where you are able to send sms, viber, or email blast to customers. Here, I was able to look into the database using mySQL and mongoDB and monitor transaction in AWS.</p>
 					  </div>
 					</div>				
 				</div>
@@ -81,7 +93,6 @@
 			  </ol>
 			  <div class="carousel-inner">
 			    <div class="carousel-item active">
-			    	<h5 class="text-center text-white mt-5">Front End</h5>
 			      	<div class="d-flex justify-content-center mb-5">
 				      	<img width="150" src="./images/logo-html5.png"/>
 		                <img width="150" src="./images/logo-css3.png"/>
@@ -90,7 +101,6 @@
 			      	</div>
 			    </div>
 			    <div class="carousel-item">
-			    	<h5 class="text-center text-white mt-5">MERN</h5>
 			      	<div class="d-flex justify-content-center mb-5">
 				      	<img width="150" src="./images/logo-mongodb.png"/>
 		                <img width="150" src="./images/logo-expressjs.png"/>
@@ -99,7 +109,6 @@
 			      	</div>
 			    </div>
 			    <div class="carousel-item">
-			    	<h5 class="text-center text-white mt-5">Other Tools</h5>
 			      	<div class="d-flex justify-content-center mb-5">
 				      	<img width="150" src="./images/logo-heroku.png"/>
 		                <img width="150" src="./images/logo-git.png"/>
@@ -121,21 +130,21 @@
 
 
 
-		<section id="contact" class="container my-5 py-5">
+		<section id="contact" class="container my-5 pt-5 pb-3">
 			<h2 class="text-center text-white">CONTACT</h2>
-			<div class="row text-white m-5">
-				<div class="col-6">
+			<div class="row text-white m-5 text-center text-md-left">
+				<div class="col-md-6 col-12">
 					<h5 class="">My Accounts</h5>
-					<div class="d-flex mt-5">
-						<a href="https://www.linkedin.com/in/nikko-ocampo-280744100/"> <i class="fa fa-linkedin"></i></a>
-						<a href="https://github.com/npocampo"> <i class="fa fa-github"></i></a>
-						<a href="https://gitlab.com/nikko.p.ocampo"> <i class="fa fa-gitlab"></i></a>
+					<div class="d-flex mt-3 justify-content-center justify-content-md-start">
+						<a href="https://www.linkedin.com/in/nikko-ocampo-280744100/"> <i class="fa fa-linkedin mx-3"></i></a>
+						<a href="https://github.com/npocampo"> <i class="fa fa-github mx-3"></i></a>
+						<a href="https://gitlab.com/nikko.p.ocampo"> <i class="fa fa-gitlab mx-3"></i></a>
 					</div>
 				</div>
-				<div class="col-6">
-					<h5>Message Us</h5>
-					<form class="mb-5 text-white">
-					  <div class="form-group mt-5">
+				<div class="col-md-6 col-12 mt-5 mt-md-0">
+					<h5>Message Me</h5>
+					<form class="text-white">
+					  <div class="form-group mt-3">
 					    <label for="exampleFormControlInput1">Email address</label>
 					    <input type="email" class="form-control input-field" id="exampleFormControlInput1" placeholder="name@example.com">
 					  </div>
@@ -143,10 +152,32 @@
 					    <label for="exampleFormControlTextarea1">Message</label>
 					    <textarea class="form-control input-field" id="exampleFormControlTextarea1" rows="3"></textarea>
 					  </div>
-					  <button type="submit" class="btn btn-primary text white">Submit</button>
+					  <button type="button" class="btn text-white mt-3" data-toggle="modal" data-target="#exampleModal">Submit</button>
 					</form>
 				</div>
 			</div>
+		</section>
+
+		<section id="modal">
+		<!-- Modal -->
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		  <div class="modal-dialog">
+		    <div class="modal-content">
+		      <div class="modal-header">
+		        <h5 class="modal-title" id="exampleModalLabel">Confirmation</h5>
+		        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		          <span aria-hidden="true">&times;</span>
+		        </button>
+		      </div>
+		      <div class="modal-body">
+		        Your message has been sent.
+		      </div>
+		      <div class="modal-footer">
+		        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+		      </div>
+		    </div>
+		  </div>
+		</div>
 		</section>
 
 		<footer class="container-fluid text-center">
